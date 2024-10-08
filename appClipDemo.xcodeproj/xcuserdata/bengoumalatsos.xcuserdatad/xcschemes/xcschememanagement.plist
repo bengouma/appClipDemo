@@ -9,6 +9,44 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>iddatawebClip.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F704E03E2CB036D000DC9101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F704E04E2CB036D300DC9101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F704E0582CB036D300DC9101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F704E06F2CB039CE00DC9101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F704E0802CB039D000DC9101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F704E08A2CB039D000DC9101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

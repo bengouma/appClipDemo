@@ -8,12 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var clicks : Int = 0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+            Text("Welcome to IDDataWeb!")
+            Text("This is the main app")
+            Image("iddataweb")
+                .imageScale(.small)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Click here to increase number") {
+                clicks += 1
+            }
+            Text("Number of clicks: " + String(clicks))
+            
+            let iddataweburl = URL(string: "<com.apple.mobiletimer>")!
+
+            Link("IDDataWeb", destination: iddataweburl)
         }
         .padding()
     }
